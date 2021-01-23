@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@469&display=swap');
+/*фон начальной страницы*/
+/*body {
+	background-image: url("sexy-aффss-butt-fitness-toned.jpg");  
+}*/
+.container1 {
+width: 500px;
+border: 2px solid balck;
+border-radius: 10px;
+color: Black;
+font-family: Century gothic;
+
+}
+
+#itog {
+	border: 2px solid black;
+	border-width: 2px;
+	width: 350px;
+}
+.sektion {
+border: 1px solid black;
+width: 1000px;
+height: 1000px;
+}
+
+
+
+.droppable{margin-left:550px; width:300px; height:200px;
+           padding:0.5em; border:2px solid black; background-color:#FFFFE0; }
+
+
+.trash { float: right; width: 32%; height:100%; min-height: 18em; padding: 1%;border: 2px solid; }
+.trash:h4 { line-height: 16px; margin: 0 0 0.4em; }
+.trash:h4.ui-icon { float: left; }
+
+.sv {width: 20%;
+	color: red; 
+  	border: 2px solid #000;
+  padding: .5em 2em;
+}
+img {
+
+	width:85%;
+}
+
+/*Покупки*/
+#cart_title span {
+    border: 8px solid #666;
+    border-bottom-width: 0;
+    background: #333;
+    display: block;
+    float: left;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 5px 10px;
+    -webkit-border-radius: .5em .5em 0 0;
+    -moz-border-radius: .5em .5em 0 0;
+    border-radius: .5em .5em 0 0;
+}
+#cart_toolbar {
+    overflow: hidden;
+    border: 8px solid #666;
+    height: 190px;
+    z-index: -2;
+    width: 483px;
+    -webkit-border-radius: 0 .5em 0 0;
+    -moz-border-radius: 0 .5em 0 0;
+    border-radius: 0 .5em 0 0;
+    background: #ffffff;
+}
+#cart_items {
+    height: 190px;
+    width: 483px;
+    position: relative;
+    padding: 0 0 0 2px;
+    z-index: 0;
+    cursor: e-resize;
+    border-width: 0 2px;
+}
+.back {
+    background: #e9e9e9;
+}
+#navigate {
+    width: 463px;
+    margin: 0 auto;
+    border: 8px solid #666;
+    border-top-width: 0;
+    -webkit-border-radius: 0 0 .5em .5em;
+    -moz-border-radius: 0 0 .5em .5em;
+    border-radius: 0 0 .5em .5em;
+    padding: 10px;
+    font-size: 14px;
+    background: #333;
+    font-weight: bold;
+}
+#nav_left {
+    float: left;
+}
+#nav_left a {
+    padding: 4px 8px;
+    background: #fff;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    text-decoration: none;
+    color:#0099cc;
+}
+#nav_left a:hover {
+    background: #666;
+    color: #fff;
+}
+#nav_right {
+    float: right;
+}
+.sptext {
+    background: #ffffff;
+    padding: 4px 8px;
+    margin-left: 8px;            
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    color: #666;
+}
+.count {
+    color: #0099cc;
+}
+.drop-active {
+    background: #ffff99;
+}
+.drop-hover {
+    background: #ffff66;
+}
+
+#droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; background-color:#E6E6FA; }
+  
+#ydolit { margin-left: 300px; width: 20%; min-height: 18em; padding: 1%; background-color: #E0FFFF; }
+#ydolit h4 { line-height: 16px; margin: 0 0 0.4em; }
+#ydolit h4 .ui-icon { float: left; }
+  
+#draggable{ margin-left:0px; width: 300px; height: 300px; padding: 0.5em;}
+.hide1 {
+	margin-top:20px;
+}
+.chek_knopka {
+	
+	margin-top:20px;
+}
+.ochistka1 {
+	margin-top:20px;
+}
+.download {
+	
+	margin-top:20px;
+}
+.iache {
+width: 350px;
+background-color: #E6E6FA;
+border: 1px solid #000;
+
+
+}
+
+.copyright-text {
+    background: #000000;
+    border-top: 1px solid #0a0a0a;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.text-center {
+    text-align: center!important;
+}
+.ct-inside {
+	
+	color: #FF8C00;
+}
+/*Слайдшоу в главном меню*/
+.container_slider_css{margin:px auto;width:1887px;height:768px;overflow:hidden;position:relative}
+.photo_slider_css{position:absolute;animation:round 16s infinite;opacity:0;width:100%}
+@keyframes round {
+25%{opacity:1}
+40%{opacity:0}
+}
+img:nth-child(1){animation-delay:13s}
+img:nth-child(2){animation-delay:9s}
+img:nth-child(3){animation-delay:5s}
+img:nth-child(4){animation-delay:0}
+@media(min-width:0px) and (max-width:320px) {
+.container_slider_css{width:80%;height:190px}
+}
+@media(min-width:321px) and (max-width:480px) {
+.container_slider_css{width:80%;height:190px}
+}
+
+
+
+SELECT {
+	margin-top: 20px;
+}
+* {
+	box-sizing:border-box;
+	margin-top:0;
+	padding:0;	
+}
+li,a,button {
+	
+font-family: "Oswald";
+font-weight:500;
+font-size: 14px;
+color:#F4A460; /* ЦВЕТ - ГЛАВНАЯ, КАТАЛОГ, КОНТАКТЫ*/
+text-decoration:none;	
+}
+header {  /*САМО МЕНЮ*/
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:30px 10%;
+	height:90px;
+	background-color:black ; /*ФОН МЕНЮ*/
+	
+}
+.logo {
+	cursor: pointer;
+	width:185px;
+}
+.menu {
+	
+	list-style:none;
+}
+.menu li {
+	
+	display: inline-block;
+	padding: 20px 40px;
+}
+.menu li a {
+	transition: all .3s ease 0s;
+	
+}
+.menu li a:hover {
+	color: black; /*ЦВЕТ ПРИ НАВЕДЕНИИ НА пункты меню */
+}
+/*button {
+	padding: 9px 25px;
+	background-color: #000000;
+	border:none;
+	border-radius: 50px;
+	cursor:pointer;
+	transition: all .3s ease 0s;
+}
+button:hover {
+	
+	background-color: white;
+}*/
+.menu li:hover ul{
+	display:block;
+}
+.menu li: hover li {
+	display: block;
+	
+}
+.podmenu {
+	display: none;
+	position: absolute;
+	background-color: black; /*ЦВЕТ ВЫПАДАЮЩЕГО МЕНЮ */
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+	z-index:1;
+}
+.podmenu a{
+	color: #FF8C00; /*Цвет текста выпадающего под меню*/
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.podmenu a:hover {background-color: #FF8C00;}
+.menu a:hover {background-color: #FF8C00;}
+
+
+ul.menu > li:hover > ul.baz {
+	
+display: block;
+	
+}
+
+/* Товары 1 */
+.tovar_pic {
+width:300px ;
+height: 300px;
+
+
+}
+.tovar_nazvanie {
+font-family: Georgia;
+color: black;
+word-spacing: 20px;
+letter-spacing: 3px;
+font-size: 25px;
+
+}
+.tovar_cena {
+font-family: Georgia;
+color: black;
+font-size: 17px;
+}
+
+table{
+width: 100%;
+border-collapse:collapse;
+border-spacing: 0;
+
+}
+table, td {
+border: none;
+}
+td {
+padding: 3px;
+width: 30px;
+height: 35px;
+}
+
+#skupka_tovara {
+font-family: Georgia;
+color: black;
+word-spacing: 20px;
+letter-spacing: 3px;
+margin-left: 20px;
+}
+button {
+font-family: Georgia;
+color: black;
+word-spacing: 20px;
+letter-spacing: 3px;
+background-color: green;
+padding: 5px 20px;
+border-radius: 10px;
+}
+
+textarea {
+font-family:Georgia;
+font-size: 13px;
+font-weight: bold;
+background-color: Silver;
+border-radius: 10px;
+border: 2px solid Black;
+
+}

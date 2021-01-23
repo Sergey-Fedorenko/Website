@@ -1,0 +1,28 @@
+
+.poisk {background: #7BA7AB;}
+.poisk:after {content:""; clear:both; display:table}
+.poisk form {
+  width: auto;
+  margin-right: 30px;
+}
+.poisk input {
+  width: 250px;
+  height: 42px;
+  margin-top:20px;
+  padding-left: 10px;
+  border-radius: 40px;
+  border: 2px solid #324b4e;
+  background: #F9F0DA;
+  outline: none;
+  
+  transition: .3s linear;
+}
+.poisk input:focus {
+  width: 300px;
+}
+body {
+    background-image: url("sexy-ass-butt-fitness-toned.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed; /Запрет на прокрутку фонового изображения/
+    background-position: center bottom; /Размещение фонового рисунока по центру/
+    }
